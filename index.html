@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>An Enterprise</title>
+  
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light p-4">
+        <div class="container">
+            <a href="#home" id="navbar__logo">An Enterprise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-menu ms-auto">
+                    <li class="nav-item me-3">
+                        <a href="#home" class="nav-link" id="home-page">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="/about.html" class="nav-link" id="about-page">About</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="/documentation.html" class="nav-link" id="about-page">Documentation</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="/contact.html" class="nav-link" id="contact-page">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-slider-area">
+        <div class="swiper mySwipers">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                   <div class="slider-item item-bg-1">
+                      <div class="d-table">
+                          <div class="d-table-cell">
+                              <div class="container">
+                                  <div class="align-items-center row">
+                                      <div class="col-lg-9">
+                                          <div class="slide-text">
+                                            <h1>First slide label</h1>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item item-bg-2">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <div class="container">
+                                    <div class="align-items-center row">
+                                        <div class="col-lg-9">
+                                            <div class="slide-text">
+                                              <h1>First slide label</h1>
+                                              <p>Some representative placeholder content for the first slide.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item item-bg-3">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <div class="container">
+                                    <div class="align-items-center row">
+                                        <div class="col-lg-9">
+                                            <div class="slide-text">
+                                              <h1>First slide label</h1>
+                                              <p>Some representative placeholder content for the first slide.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                
+                <!-- <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/3.jpg" class="d-block w-100 slide-img" alt="Images" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>First slide label</h2>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/3.jpg" class="d-block w-100 slide-img" alt="Images" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Second slide label</h2>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/3.jpg" class="d-block w-100 slide-img" alt="Images" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Third slide label</h2>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section> -->
+    <section id="content">
+        <div class="content-wrap">
+            <a href="" class="color color-full color-aqura text-center header-stick bottom-margin">
+                <div class="container clearfix">
+                    canvas comes with unlimited customizations & options.
+                </div>
+            </a>
+            <div class="container clearfix">
+                <div class="heading-block text-center bottom-margin">
+                    <h1>New York based creative Agency</h1>
+                    <span>Specializes in creating Brand Identity for emerging
+                        Startups</span>
+                </div>
+                <div class="row justify-content-center col-mb-50">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="heading-block box-title title-bottom-border">
+                            <h4>Why choose <span>Us</span>.</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                            quidem minus id omnis, nam expedita, ea fuga commodi voluptas
+                            iusto, hic autem deleniti dolores explicabo labore enim repellat
+                            earum perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="heading-block box-title title-bottom-border">
+                            <h4>Why choose <span>Us</span>.</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                            quidem minus id omnis, nam expedita, ea fuga commodi voluptas
+                            iusto, hic autem deleniti dolores explicabo labore enim repellat
+                            earum perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="heading-block box-title title-bottom-border">
+                            <h4>Why choose <span>Us</span>.</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                            quidem minus id omnis, nam expedita, ea fuga commodi voluptas
+                            iusto, hic autem deleniti dolores explicabo labore enim repellat
+                            earum perspiciatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mb-0">
+            <div class="container">
+                <div class="grid-filter-wrap tab">
+                    <ul class="grid-filter">
+                        <li class="tabLinks" id="defaultOpen" onclick="valueLinks(event, 'germentsItems')">
+                            <span>Garments Items</span>
+                        </li>
+                        <li class="tabLinks" onclick="valueLinks(event, 'goGreenItems')">
+                            <span>Go Green Items</span>
+                        </li>
+                        <li class="tabLinks" onclick="valueLinks(event, 'polyBagItems')">
+                            <span>Poly Bag Items</a>
+                        </li>
+                        <li class="tabLinks" onclick="valueLinks(event, 'sliceGel&TissuesItems')">
+                            <span>Slice & Tissues Items</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div id="germentsItems" class=" tabcontent">
+                        <div class="row g-0">
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/amberboards.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/bitopi.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/crowncement.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div id="goGreenItems" class="g-0 tabcontent">
+                        <div class="row">
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div id="polyBagItems" class="g-0 tabcontent">
+                        <div class="row">
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div id="sliceGel&TissuesItems" class="g-0 tabcontent">
+                        <div class="row">
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-lg-3 col-md-4 col-sm-6 cards">
+                                <div class="grid-inner card-item">
+                                    <div class="card-image">
+                                        <img src="images/acdivoca.png" width="300" height="200" alt="images">
+                                    </div>
+                                    <div class="card-desc">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet.
+                                        </h3>
+                                        <span>
+                                            Lorem, ipsum.
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 30px 0; margin: 50px;">
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/acdivoca.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/amberboards.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bitopi.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/crowncement.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/dutchclub.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/forestserv.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gemcon.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/idlc.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/ifarmer.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/kktea.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/ircl.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/mainlogo.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/mksons.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/mum.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/ningbo.png" alt="images">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/rccola.png" alt="images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="dark">
+        <div class="container">
+            <div class="footer-widgets-wrap">
+                <div class="row col-mb-50"
+                    style="background: url('images/world-map.png') no-repeat center center; background-size: 50%;">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="widget clearfix">
+                            <div class="footer-logo">
+                                <a href="#home" id="navbar__logo">An Enterprise</a>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, repellendus nobis.
+                                Facilis id laudantium harum minus vitae non, in esse inventore amet doloremque iusto
+                                corrupti numquam mollitia expedita, blanditiis obcaecati.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_links clearfix">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        About</a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fas fa-chevron-right"></i>
+                                        Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_links clearfix">
+                            <h3>Our Products</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        Garment Items</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        Go Green Items</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        Poly Bags Items</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                        Slice & Tissues Items</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_links contact clearfix">
+                            <h3>Get In Touch</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <span>Hotline:</span>
+                                        Phone: <a href="tel:">fghghfgh</a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>Email:</span>
+                                        <a href="mailto:">asfodfjodij</a></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Address:</span> sdfafjooij</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        Copyrights © 2020 All Rights Reserved by An Enterprise
+                        <br>
+                        <div class="copyright-links">
+                            <a href="#">Terms of Use</a>
+                            /
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mt-2 text-md-end">
+                        <div class="d-flex justify-content-center justify-content-md-end">
+                            <a href="#" class="social-icon si-small si-borderless">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon si-small si-borderless">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon si-small si-borderless">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                            <a href="#" class="social-icon si-small si-borderless">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <i class="fas fa-envelope"></i>
+                        ljdsfj@gmail.com
+                        <span class="meddot">.</span>
+                        <i class="fas fa-phone-alt"></i>
+                        2554445552
+                        <span class="meddot">.</span>
+                        <i class="fab fa-skype"></i>
+                        helloSkype
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            // centeredSlides: true,
+            // spaceBetween: 10,
+
+        });
+    </script>
+      <script>
+        var swiper = new Swiper(".mySwipers", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

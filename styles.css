@@ -25,7 +25,7 @@ a {
 }
 
 .nav-link {
-    color: #000 !important;
+    /* color: #000 !important; */
     transition: all 0.3s ease;
 }
 
@@ -44,15 +44,15 @@ a {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     /* align-items: center; */
-    font-size: 1.9rem;
-    color: #fff;
+    font-size: 1.7rem;
+    /* color: #000; */
 }
 #navbar__logo img{
     display: inline-block;
 }
 @media only screen and (max-width: 767px) {
     #navbar__logo{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #navbar__logo img{
        display: block;
@@ -64,9 +64,13 @@ a {
 .nav-item a.nav-link{
     color: #fff !important;
     font-weight: 600;
-    line-height: 1.8;
-    
+    line-height: 1.8;  
 }
+/* .nav-item a.whiteColor{
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.8;  
+} */
 
 .hero-slider-area .item-bg-1 {
     background-image: url(images/3.jpg);
@@ -323,7 +327,6 @@ img {
 .card-desc {
     padding: 20px 5px;
 }
-
 .card-desc h3 {
     font-size: 20px;
     padding: 0;
@@ -564,4 +567,39 @@ span.meddot {
     width: 100% ;
     /* height: 300px; */
     margin: 0px auto;
+}
+
+/* Contact-page */
+
+.Header-picture{
+    width: fit-content;
+}
+.space-top{
+    margin-top: 100px;
+}
+.space-top .contact-header-title h2{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.space-top .contact-header-title .br{
+    margin-bottom: 20px;
+}
+.space-top .contact-header-title p{
+    font-weight: 500;
+    color: gray;
+}
+.contact-picture{
+    text-align: -webkit-right;
+}
+.contact-address span{
+    color: #888;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.contact-address h5{
+    margin-bottom: 15px;
+    font-weight: 600;
 }

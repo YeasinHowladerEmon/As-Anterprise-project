@@ -13,6 +13,36 @@ function valueLinks(evt, product){
 }
 
 document.getElementById("defaultOpen").click()
+
+
+
+// sticky top
+
+let element = document.getElementById("navbar");
+let element2 = document.getElementById("page")
+// window.addEventListener("scroll", handleScroll)
+// const handleScroll = () =>{
+//     if(window.scrollY > 50){
+//         element.classList.add('bg-grayBlue');
+//     }
+//     else{
+//         element.classList.remove('bg-grayBlue');
+//     }
+// }
+
+window.onscroll = function(){scrollFunction()}
+function scrollFunction(){
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+        element.classList.add("bg-grayBlue")
+        // element2.classList.add("whiteColor")
+    }
+    else{
+        element.classList.remove("bg-grayBlue")
+        // element.classList.remove("blackColor")
+    }
+}
+
+
 {/* <article  class="col cards">
 <div class="grid-inner card-item">
     <div class="card-image">

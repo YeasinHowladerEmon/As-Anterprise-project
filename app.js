@@ -1,13 +1,13 @@
-function valueLinks(evt, product){
-    var i , tabcontent, tabLinks;
+function valueLinks(evt, product) {
+    var i, tabcontent, tabLinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
-      }
+    }
     tabLinks = document.getElementsByClassName("tabLinks");
     for (i = 0; i < tabLinks.length; i++) {
         tabLinks[i].className = tabLinks[i].className.replace(" active", "");
-      }
+    }
     document.getElementById(product).style.display = "block";
     evt.currentTarget.className += " active";
 }
@@ -30,17 +30,23 @@ let element2 = document.getElementById("page")
 //     }
 // }
 
-window.onscroll = function(){scrollFunction()}
-function scrollFunction(){
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+window.onscroll = function () { scrollFunction() }
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         element.classList.add("bg-grayBlue")
         // element2.classList.add("whiteColor")
     }
-    else{
+    else {
         element.classList.remove("bg-grayBlue")
         // element.classList.remove("blackColor")
     }
 }
+
+let preLoader = document.getElementById('loading')
+setTimeout(() => {
+        preLoader.style.display = "none";
+}, 5000);
+
 
 
 {/* <article  class="col cards">

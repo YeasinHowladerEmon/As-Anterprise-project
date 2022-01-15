@@ -14,15 +14,14 @@ function valueLinks(evt, product) {
 
 document.getElementById("defaultOpen").click()
 
-
-
 // sticky top
 
 let element = document.getElementById("navbar");
-let element2 = document.getElementById("page")
+let button = document.getElementById("btn")
+// let element2 = document.getElementById("page")
 // window.addEventListener("scroll", handleScroll)
 // const handleScroll = () =>{
-//     if(window.scrollY > 50){
+    //     if(window.scrollY > 50){
 //         element.classList.add('bg-grayBlue');
 //     }
 //     else{
@@ -30,22 +29,35 @@ let element2 = document.getElementById("page")
 //     }
 // }
 
-window.onscroll = function () { scrollFunction() }
-function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+window.onscroll = function scrollFunction() {
+    if (window.scrollY > 100) {
         element.classList.add("bg-grayBlue")
+        button.style.display = "block";
         // element2.classList.add("whiteColor")
     }
     else {
         element.classList.remove("bg-grayBlue")
+        button.style.display = "none";
         // element.classList.remove("blackColor")
     }
 }
 
+// window.addEventListener("scroll", topUp())
+// function scrollFunction() {
+//     if (window.scrollY > 20) {
+//     } else {
+//     }
+// }
+
+
+
+// loader function
 let preLoader = document.getElementById('loading')
-setTimeout(() => {
+function timeLoader(){
+    setTimeout(() => {
         preLoader.style.display = "none";
-}, 5000);
+    }, 3000);
+}
 
 
 
